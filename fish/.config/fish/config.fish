@@ -1,5 +1,7 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
+export MOZ_ENABLE_WAYLAND=1
+
 # overwrite greeting
 # potentially disabling fastfetch
 #function fish_greeting
