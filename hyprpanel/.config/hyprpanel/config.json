@@ -457,6 +457,6 @@
   "menus.power.lowBatteryNotification": true,
   "menus.power.showLabel": true,
   "wallpaper.enable": true,
-  "theme.bar.opacity": 80,
+  "theme.bar.opacity": 70,
   "theme.bar.margin_sides": "0.8em"
 }

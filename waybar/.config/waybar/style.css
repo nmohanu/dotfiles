@@ -1,0 +1,83 @@
+@define-color foreground #eeeeee;
+@define-color foreground-inactive #aaaaaa;
+@define-color background rgba(0, 0, 0, 0.4);
+
+* {
+    font-family: JetBrainsMono Nerd Font Propo;
+    font-size: 14px;
+    font-weight: 800;
+
+    min-height: 0;
+    padding: 1 2px;
+    margin: 0;
+}
+
+#waybar {
+    color: @foreground;
+    background-color: @background;
+    border-radius: 12px;
+    border: 2px solid white;
+}
+
+.modules-left {
+    padding-left: 15px;
+}
+
+.modules-right {
+    padding-right: 15px;
+}
+
+#workspaces {
+}
+
+#workspaces button {
+    transition: none;
+    color: white;
+}
+
+#workspaces button.active {
+  color: red;
+}
+
+#memory,
+#custom-platform-profile {
+    padding-left: 1em
+}
+
+#custom-arch {
+    font-size: 18px;
+    color: red;
+    padding: 0 10px;
+}
+
+#custom-power {
+    color: red;
+}
+
+#battery.low {
+    color: #ff5555;
+}
+
+#workspaces button:hover {
+    background: none;   
+    border: none;   
+    outline: none;
+    box-shadow: none;  
+    font-size: inherit;
+    font-weight: 800;
+    text-shadow: none;
+    margin: inherit;
+    padding: inherit;
+}
+
+#clock,
+#wireplumber,
+#battery,
+#idle_inhibitor,
+#language,
+#network,
+#bluetooth,
+#tray {
+    padding-right: 1em;
+    color: white;
+}
