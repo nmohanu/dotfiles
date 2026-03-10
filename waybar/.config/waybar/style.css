@@ -2,6 +2,7 @@
 @define-color foreground-inactive #aaaaaa;
 @define-color background rgba(0, 0, 0, 0.3);
 @define-color soft-red #9b203d;
+@define-color soft-white #d6d6d6;
 
 * {
     font-family: JetBrainsMono Nerd Font Propo;
@@ -33,7 +34,7 @@
 
 #workspaces button {
     transition: none;
-    color: white;
+    color: @soft-white;
 }
 
 #workspaces button.active {
@@ -80,5 +81,5 @@
 #bluetooth,
 #tray {
     padding-right: 1em;
-    color: white;
+    color: @soft-white;
 }
