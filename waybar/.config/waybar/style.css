@@ -1,6 +1,7 @@
 @define-color foreground #eeeeee;
 @define-color foreground-inactive #aaaaaa;
-@define-color background rgba(0, 0, 0, 0.4);
+@define-color background rgba(0, 0, 0, 0.3);
+@define-color soft-red #9b203d;
 
 * {
     font-family: JetBrainsMono Nerd Font Propo;
@@ -16,7 +17,7 @@
     color: @foreground;
     background-color: @background;
     border-radius: 12px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .modules-left {
@@ -36,7 +37,7 @@
 }
 
 #workspaces button.active {
-  color: red;
+  color: @soft-red;
 }
 
 #memory,
@@ -46,16 +47,16 @@
 
 #custom-arch {
     font-size: 18px;
-    color: red;
+    color: @soft-red;
     padding: 0 10px;
 }
 
 #custom-power {
-    color: red;
+    color: @soft-red;
 }
 
 #battery.low {
-    color: #ff5555;
+    color: @soft-red;
 }
 
 #workspaces button:hover {

@@ -26,7 +26,8 @@
     "on-click": "activate",
     "format-icons": {
       "active": "\uf444",
-      "default": "\uf4c3"
+      "default": "\uf444",
+      "empty": "\uf4c3"
     },
     "icon-size": 10,
     "sort-by-number": true,
