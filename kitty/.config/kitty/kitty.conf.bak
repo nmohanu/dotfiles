@@ -18,12 +18,12 @@ tab_powerline_style round
 
 notify_on_cmd_finish invisible 10
 
-background_opacity 0.85
+background_opacity 0.8
 
 
 # BEGIN_KITTY_THEME
-# Kanagawa_dragon
-# include current-theme.conf
+# Afterglow
+include current-theme.conf
 # END_KITTY_THEME
 
 cursor_trail 200
